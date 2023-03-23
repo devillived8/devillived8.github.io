@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="./css/media.css">
+    <title>Автошкола</title>
+</head>
+
+<body>
+    <!-- FORM -->
+    <div class="main_form_wrapper"></div>
+    <form action="" class="main_form">
+        <h1 class="main_form_title">ЗАПИСАТЬСЯ НА ОБУЧЕНИЕ ПО АКЦИИ</h1>
+        <p class="main_name">Ваше имя</p>
+        <input type="text" name="name" id="main_name" placeholder="Введите ваше имя">
+        <p class="main_telephone">Ваш телефон</p>
+        <input type="tel" name="tel" id="main_tel" placeholder="Введите ваш номер телефона">
+        <p class="main_choseCategorie">Выберите категорию</p>
+        <select name="select" id="select">
+            <option value="A">Категория А</option>
+            <option value="B">Категория B</option>
+            <option value="C">Категория C</option>
+            <option value="D">Категория D</option>
+        </select>
+        <div class="main_wrapper_consentToProcessing">
+            <input type="checkbox" name="checkbox" id="main_checkbox">
+            <p class="main_consentToProcessing">Даю согласию на обработку персональных данных</p>
+        </div>
+        <button class="main_form_button">ЗАПИСАТЬСЯ</button>
+    </form>
+
+    <!-- FORM -->
+    <header class="header">
+        <img src="./img/logo.jpg" alt="logotype" width="100px" height="100px">
+        <p class="header_schedule">график работы:<br>
+            пн-вс 09:30 - 18:30</p>
+        <div class="header_telNumber">
+            <p class="header_telephons">Телефоны:</p>
+            <a href="tel:+7 (800) 550-50-90" class="header_number">+7 (800) 550-50-90</a>
+            <br>
+            <a href="tel:+7 (800) 550-50-90" class="header_number">+7 (800) 550-50-90</a>
+            <br>
+            <a href="tel:+7 (800) 550-50-90" class="header_number">+7 (800) 550-50-90</a>
+        </div>
+        <div class="header_network_wrapper">
+            <div class="header_button">Заказать звонок</div>
+            <div class="networks">
+                <a href=""><img src="./img/youtube.png" alt="youtube"></a>
+                <a href=""><img src="./img/vk.png" alt="vk"></a>
+                <a href=""><img src="./img/instagram.png" alt="instagram"></a>
+                <a href=""><img src="./img/telegram.png" alt="telegram"></a>
+                <a href=""><img src="./img/whatsapp.png" alt="whatsapp"></a>
+                <a href=""><img src="./img/odnoklassniki.png" alt="odnoklassniki"></a>
+            </div>
+        </div>
+    </header>
+    <nav class="nav">
+        <input class="checkbox" type="checkbox" name="" id="" />
+        <div class="hamburger-lines">
+            <span class="line line1"></span>
+            <span class="line line2"></span>
+            <span class="line line3"></span>
+        </div>
+        <div class="menu-items">
+            <li><a href="">КАТЕГОРИЯ «А»</a></li>
+            <li><a href="">КАТЕГОРИИ</a></li>
+            <li><a href="">ЦЕНЫ</a></li>
+            <li><a target="_blank" href="">ЗАПИСЬ И ОПЛАТА</a></li>
+            <li><a target="_blank" href="">ОБУЧЕНИЕ ON-LINE</a></li>
+            <li><a target="_blank" href="">КОНТАКТЫ</a></li>
+            <li><a target="_blank" href="">О НАС</a>
+        </div>
+        <ul class="nav_menu">
+            <li><a target="_blank" href="">КАТЕГОРИИ</a>
+                <ul class="hidden_menu_categories">
+                    <li><a href="">КАТЕГОРИЯ «А»</a></li>
+                    <li><a href="">КАТЕГОРИЯ «В»</a></li>
+                    <li><a href="">КАТЕГОРИЯ «С»</a></li>
+                    <li><a href="">КАТЕГОРИЯ «D»</a></li>
+                    <li><a href="">ВОССТАНОВЛЕНИЕ НАВЫКОВ ВОЖДЕНИЯ</a></li>
+                </ul>
+            </li>
+            <li id="prices"><a target="_blank" href="">ЦЕНЫ</a>
+                <ul class="hidden_menu_prices">
+                    <li><a href="">СТОИМОСТЬ ОБУЧЕНИЯ</a></li>
+                    <li><a href="">РАССРОЧКА 0%</a></li>
+                    <li><a href="">ВЫЕЗД МЕНЕДЖЕРА</a></li>
+                </ul>
+
+            </li>
+            <li><a target="_blank" href="">ЗАПИСЬ И ОПЛАТА</a></li>
+            <li><a target="_blank" href="">ОБУЧЕНИЕ ON-LINE</a></li>
+            <li><a target="_blank" href="">КОНТАКТЫ</a></li>
+            <li><a target="_blank" href="">О НАС</a>
+                <ul class="hidden_menu_aboutUs">
+                    <li><a href="">Сведения об образовательной организации</a></li>
+                    <li><a href="">Наш автодром</a></li>
+                    <li><a href="">Инструкторы</a></li>
+                    <li><a href="">Преподаватели</a></li>
+                    <li><a href="">Автотренажер</a></li>
+                    <li><a href="">Оплата материнским капиталом</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <main class="main">
+        <section class="upperSection">
+            <div class="upperSection_wrapper">
+                <h1 class="upperSection_title">ЭКЗАМЕНЫ ГИБДД НА НАШЕМ АВТОДРОМЕ</h1>
+                <form action="" class="upperSection_form">
+                    <h1 class="form_title">ЗАПИСАТЬСЯ НА ОБУЧЕНИЕ ПО АКЦИИ</h1>
+                    <p class="name">Ваше имя</p>
+                    <input type="text" name="name" id="name" placeholder="Введите ваше имя">
+                    <p class="telephone">Ваш телефон</p>
+                    <input type="tel" name="tel" id="tel" placeholder="Введите ваш номер телефона">
+                    <p class="choseCategorie">Выберите категорию</p>
+                    <select name="select" id="select">
+                        <option value="A">Категория А</option>
+                        <option value="B">Категория B</option>
+                        <option value="C">Категория C</option>
+                        <option value="D">Категория D</option>
+                    </select>
+                    <div class="wrapper_consentToProcessing">
+                        <input type="checkbox" name="checkbox" id="checkbox">
+                        <p class="consentToProcessing">Даю согласию на обработку персональных данных</p>
+                    </div>
+                    <button class="form_button">ЗАПИСАТЬСЯ</button>
+                </form>
+            </div>
+        </section>
+        <section class="middleSection">
+            <div class="middleSection_wrapper">
+                <div class="testdrive">
+                    <div class="testdrive_imageWrapper">
+                        <img src="./img/testdrive_image.png" alt="testdrive_image" class="testdrive_image">
+                    </div>
+                    <div class="testdrive_content">
+                        <h1 class="testdrive_header">БЕСПЛАТНЫЙ ТЕСТ-ДРАЙВ АВТОШКОЛЫ</h1>
+                        <p class="testdrive_text">Позволит Вам понять уровень подготовки наших преподавателей и
+                            инструкторов;<br>
+                            Cможете подобрать максимально подходящий для Вас авто;<br>
+                            И вы точно оцените наш собственный автодром;</p>
+                        <p class="testdrive_text">В тест-драйв входит:<br>
+                            <span> Бесплатное занятие по теории
+                                Бесплатное занятие с инструктором на автодроме</span>
+                        </p>
+                        <div class="testdrive_button">
+                            ЗАПИСАТЬСЯ
+                        </div>
+                    </div>
+                </div>
+                <div class="categories">
+                    <div class="categories_cardHeader">
+                        <div class="cardHeader_element">
+                            <h1 class="categories_title">КАТЕГОРИЯ «А»</h1>
+                            <p class="categories_text">Обучись вождению мотоцикла за 3 недели</p>
+                            <div class="categories_button">Записаться</div>
+                        </div>
+                        <div class="cardHeader_element">
+                            <h1 class="categories_title">КАТЕГОРИЯ «В»</h1>
+                            <p class="categories_text">Обучись вождению автомобиля за 2 месяца</p>
+                            <div class="categories_button">Записаться</div>
+                        </div>
+                    </div>
+                    <div class="categories_cardFooter">
+                        <div class="cardFooter_element">
+                            <h1 class="categories_title">КАТЕГОРИЯ «C»</h1>
+                            <div class="categories_button">Записаться</div>
+                        </div>
+                        <div class="cardFooter_element">
+                            <h1 class="categories_title">КАТЕГОРИЯ «D»</h1>
+                            <div class="categories_button">Записаться</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="aboutUs">
+                    <h1 class="aboutUs_title">О НАС</h1>
+                    <div class="aboutUs_contentWrapper">
+                        <p class="aboutUs_text">
+                            Автошкола «Формула» Краснодар работает с 2007<br> года. За более чем 14 лет подготовки
+                            водителей<br>
+                            тысячи учеников стали обладателями<br> водительского удостоверения, а мы стали одной из<br>
+                            самых
+                            больших автошкол Краснодара.<br>
+                            <br>
+                            С 2018 года обучаем на 4 категории!
+                            <br>
+                            <br>
+                            Автошкола «Формула» в Краснодаре проводит<br> обучения на права ВСЕХ категорий: «А», »B»,
+                            «С»,<br>
+                            «D». Мы предоставляем лучшие условия и цены<br> на обучение вождению. В нашей
+                            автошколе<br> проходят постоянные акции и действуют<br> приятные бонусы!
+                            <br><br>
+                            Экзамены ГИБДД сдаются на нашем автодроме и наших<br> автомобилях! Наш автодром полностью
+                            подготовлен к<br> обучению с изменениями от 01.04.2021 г
+                        </p>
+                        <img src="./img/aboutUs_image.png" alt="aboutUs" class="aboutUs_image">
+                    </div>
+                    <div class="aboutUs_slider">
+                        <h1 class="slider_title">Наша автошкола</h1>
+                        <div class="slider">
+                            <img src="./img/slider_element1.png" alt="slider_element" class="slider_element">
+                            <img src="./img/slider_element2.png" alt="slider_element" class="slider_element">
+                            <img src="./img/slider_element3.png" alt="slider_element" class="slider_element">
+                            <img src="./img/slider_element4.png" alt="slider_element" class="slider_element">
+                            <img src="./img/slider_element5.png" alt="slider_element" class="slider_element">
+                            <img src="./img/slider_element6.png" alt="slider_element" class="slider_element">
+                        </div>
+                    </div>
+                </div>
+                <div class="whyWe">
+                    <h1 class="whyWe_title">ПОЧЕМУ СТОИТ ВЫБРАТЬ<br> ИМЕННО НАШУ АВТОШКОЛУ?</h1>
+                    <div class="whyWe_flexWrapper">
+                        <div class="whyWe_leftBlock">
+                            <ul type="disc">
+                                <li>Собственный автодром</li>
+                                <li>Обучайтесь в любое время без пробок</li>
+                                <li>Большой автопарк</li>
+                                <li>Более 35 современных автомобилей в отличном состоянии</li>
+                                <li>Подготовка документов</li>
+                                <li>Мы лично подготовим полный пакет документов для экзамена в ГИБДД</li>
+                                <li>Выбор инструктора</li>
+                                <li>Женщин и мужчины инструктора, с опытом более 10 лет</li>
+                                <li>Никаких доплат</li>
+                                <li>Пересдача внутренних экзаменов - бесплатно</li>
+                            </ul>
+                        </div>
+                        <span class="whyWe_separator"></span>
+                        <div class="whyWe_rightBlock">
+                            <ul>
+                                <li>Полное сопровождение</li>
+                                <li>В ГИБДД вплоть до получения водительского удостоверения - бесплатно</li>
+                                <li>Экзаменационный автодром</li>
+                                <li>Обучение на автодроме и автомобилях, на котором будет экзамен ГИБДД</li>
+                                <li>Рассрочка до 12 месяцев</li>
+                                <li>Без процентов и переплат. Первый взнос от 3000₽</li>
+                                <li>ГСМ - 0₽</li>
+                                <li>Горюче-смазочные материалы включены в стоимость обучения</li>
+                                <li>Индивидуальный график занятий</li>
+                                <li>Обучайтесь в любом из 7 филиалов</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="orderAmanager">
+                    <div class="orderAmanager_flexWrapper">
+                        <h1 class="orderAmanager_title">ХОТИТЕ ЗАПИСАТЬСЯ В<br> АВТОШКОЛУ, НО НЕТ<br> ВРЕМЕНИ?</h1>
+                        <p class="orderAmanager_text">Воспользуйтесь беслатной услугой "Выездной менеджер". Оставьте
+                            заявку менеджер нашей автошколы подъедет в удобное для Вас место и время</p>
+                        <div class="orderAmanager_button">ЗАКАЗАТЬ ВЫЕЗД МЕНЕДЖЕРА</div>
+                    </div>
+                    <div class="orderAmanager_icons">
+                        <div class="icon1">
+                            <img src="./img/orderAmanager_icon1.png" alt="icon1">
+                            <div class="iconText">Индивидуальный<br> график обучения</div>
+                        </div>
+                        <div class="icon2">
+                            <img src="./img/orderAmanager_icon2.png" alt="icon2">
+                            <div class="iconText">Собственный автодром<br>
+                                без очередей</div>
+                        </div>
+                        <div class="icon3">
+                            <img src="./img/orderAmanager_icon3.png" alt="icon3">
+                            <div class="iconText">Забираем от<br>
+                                филиала обучения</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ourTeachers">
+                    <div class="ourTeachers_flexWrapper">
+                        <div class="leftBlock">
+                            <h1 class="ourTeachers_title">
+                                ПЕДАГОГИЧЕСКИЙ СОСТАВ АВТОШКОЛЫ
+                            </h1>
+                            <div class="outTeachers_text">В нашей автошколе Вас будут обучать<br> профессионалы своего
+                                дела с
+                                многолетним стажем работы.<br>
+                                Вы можете выбрать автомобиль и<br> инструктора с которым хотите заниматься совершенно
+                                бесплатно!</div>
+                            <div class="buttonsBlock">
+                                <div class="ourTeachers_leftButton">
+                                    ИНСТРУКТОРЫ
+                                </div>
+                                <div class="ourTeachers_rightButton">
+                                    ПРЕПОДАВАТЕЛИ
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rightBlock">
+                            <img class="rightBlock_bgImage" src="./img/ourTeachers_bgImage.png" alt="teacher">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer_flexWrapper">
+            <img src="./img/logo.jpg" alt="logo" class="logo" width="100px" height="100px">
+            <div class="footer_networks">
+                <a href=""><img src="./img/youtube.png" alt="youtube"></a>
+                <a href=""><img src="./img/vk.png" alt="vk"></a>
+                <a href=""><img src="./img/instagram.png" alt="instagram"></a>
+                <a href=""><img src="./img/telegram.png" alt="telegram"></a>
+                <a href=""><img src="./img/whatsapp.png" alt="whatsapp"></a>
+                <a href=""><img src="./img/odnoklassniki.png" alt="odnoklassniki"></a>
+            </div>
+            <div class="footer_telephone">
+                <p class="footer_telephons">Телефоны:</p>
+                <a href="tel:+7 (800) 550-50-90" class="footer_number">+7 (800) 550-50-90</a>
+                <br>
+                <a href="tel:+7 (800) 550-50-90" class="footer_number">+7 (800) 550-50-90</a>
+                <br>
+                <a href="tel:+7 (800) 550-50-90" class="footer_number">+7 (800) 550-50-90</a>
+            </div>
+        </div>
+        <div class="footer_copyright">
+            <p class="footer_dateCopyright">© 2007-2023 Все права защищены.</p>
+            <a href="">
+                <p class="privacyPolicy">Политика конфиденциальности</p>
+            </a>
+        </div>
+    </footer>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.3.min.js"
+    integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="./js/main.js"></script>
+<script src="./js/slider.js"></script>
+
+</html>
