@@ -1,0 +1,246 @@
+@media screen and (max-width:950px) {
+    .upperSection_form {
+        margin-right: 50px;
+    }
+}
+
+@media screen and (max-width:830px) {
+    .upperSection_form {
+        margin-right: 0px;
+    }
+
+    .upperSection_title {
+        display: none;
+    }
+}
+
+@media screen and (max-width:880px) {
+    .upperSection_title {
+        margin-left: 50px;
+    }
+
+    .nav_menu li a {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:660px) {
+
+    .nav_menu li {
+        display: none;
+    }
+
+    .menu-items {
+        display: flex;
+    }
+
+    .checkbox {
+        display: block;
+    }
+
+    .nav .hamburger-lines .line {
+        display: block;
+        height: 4px;
+        width: 100%;
+        border-radius: 10px;
+        background: #0e2431;
+    }
+
+
+
+
+    .nav .hamburger-lines {
+        display: block;
+    height: 26px;
+    width: 32px;
+    position: absolute;
+    top: 30%;
+    left: 85%;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    }
+
+
+}
+
+@media screen and (max-width:748px) {
+
+    .header_telNumber {
+        display: none;
+    }
+}
+
+@media screen and (max-width:620px) {
+
+    .header_schedule {
+        display: none;
+    }
+}
+
+@media screen and (max-width:1300px){
+    .testdrive{
+        display: none;
+    }
+
+    .categories{
+        height: 1700px;
+    }
+
+    .categories_cardHeader{
+        flex-direction: column;
+        align-items: center;
+        height: 940px;
+        justify-content: flex-start;
+    }
+
+    .cardHeader_element:last-child{
+        margin-top: 50px;
+    }
+
+    .categories_cardFooter{
+        flex-direction: column;
+        align-items: center;
+        height: 692px;
+
+        justify-content: flex-start;
+    }
+
+    .cardFooter_element:last-child{
+        margin-top: 50px;
+    }
+
+    .aboutUs_image{
+        display: none;
+    }
+
+    .aboutUs_contentWrapper{
+        text-align: center;
+    }
+
+    .aboutUs_slider{
+        display: none;
+    }
+
+    /* .aboutUs{
+        height: 800px;
+    } */
+
+    .whyWe{
+        display: none;
+    }
+
+    .middleSection{
+        height: 100%;
+    }
+
+    .orderAmanager{
+        display: none;
+    }
+
+    .ourTeachers{
+        display: none;
+    }
+}
+
+@media screen and (max-width:600px) {
+
+    .categories{
+        width: 600px;
+    }
+
+    .categories_cardHeader{
+        width: 600px;
+    }
+
+    .categories_cardFooter{
+        width: 600px;
+    }
+
+    .middleSection_wrapper{
+        width: 600px;
+    }
+
+    .cardHeader_element{
+        width: 600px;
+    }
+
+    .cardFooter_element{
+        width: 600px;
+    }
+
+    .categories_button{
+        margin-left: 80px;
+
+    }
+
+    .categories_title{
+        margin-left: 100px;
+    }
+
+    .categories_text{
+        margin-left: 40px;
+    }
+
+    .aboutUs{
+    margin-bottom: 200px;
+    }
+}
+
+@media screen and (max-width:320px) {
+
+    .categories{
+        width: 320px;
+    }
+
+    .categories_cardHeader{
+        width: 320px;
+    }
+
+    .categories_cardFooter{
+        width: 320px;
+    }
+
+    .middleSection_wrapper{
+        width: 320px;
+    }
+
+    .cardHeader_element{
+        width: 320px;
+    }
+
+    .cardFooter_element{
+        width: 320px;
+    }
+
+    .categories_button{
+        margin-left: 80px;
+
+    }
+
+    .categories_title{
+        margin-left: 100px;
+    }
+
+    .categories_text{
+        margin-left: 40px;
+    }
+
+    .aboutUs{
+    margin-bottom: 700px;
+    }
+
+    .header_network_wrapper{
+        display: none;
+    }
+
+    .upperSection_form{
+        min-width: 300px;
+    }
+
+    .footer_networks{
+        display: none;
+    }
+
+}
