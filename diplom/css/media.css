@@ -1,29 +1,4 @@
-@media screen and (max-width:950px) {
-    .upperSection_form {
-        margin-right: 50px;
-    }
-}
-
-@media screen and (max-width:830px) {
-    .upperSection_form {
-        margin-right: 0px;
-    }
-
-    .upperSection_title {
-        display: none;
-    }
-}
-
-@media screen and (max-width:880px) {
-    .upperSection_title {
-        margin-left: 50px;
-    }
-
-    .nav_menu li a {
-        font-size: 10px;
-    }
-}
-
+/* BURGER MENU */
 @media screen and (max-width:660px) {
 
     .nav_menu li {
@@ -47,96 +22,242 @@
     }
 
 
-
-
     .nav .hamburger-lines {
         display: block;
-    height: 26px;
-    width: 32px;
-    position: absolute;
-    top: 30%;
-    left: 85%;
-    z-index: 2;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+        height: 26px;
+        width: 32px;
+        position: absolute;
+        top: 30%;
+        left: 85%;
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
 
 
 }
 
-@media screen and (max-width:748px) {
+/* BURGER MENU */
 
-    .header_telNumber {
+
+@media screen and (max-width:886px) {
+    .upperSection_title {
         display: none;
     }
+
+
 }
 
-@media screen and (max-width:620px) {
+
+@media screen and (max-width:732px) {
 
     .header_schedule {
         display: none;
     }
+
+    .header_telNumber {
+        display: none;
+    }
+
+    .testdrive_header{
+        font-size: 24px;
+        margin-top: 60px;
+    }
+
+    .testdrive_text{
+        font-size: 14px;
+    }
+
+    .testdrive_button {
+        margin-bottom: 94px;
+    }
+
+    .testdrive{
+        height: 580px;
+    }
 }
 
-@media screen and (max-width:1300px){
+
+@media screen and (max-width:490px) {
+    .testdrive_header{
+        font-size: 18px;
+        margin-top: 100px;
+    }
+
+    .testdrive_text{
+        font-size: 12px;
+    }
+
     .testdrive{
+        height: 500px;
+    }
+
+
+
+}
+
+
+
+
+
+@media screen and (max-width:450px) {
+    .networks {
         display: none;
     }
 
-    .categories{
-        height: 1700px;
+    .header_button {
+        font-size: 18px;
+        padding: 0px 10px;
     }
+}
 
-    .categories_cardHeader{
-        flex-direction: column;
-        align-items: center;
-        height: 940px;
-        justify-content: flex-start;
-    }
 
-    .cardHeader_element:last-child{
-        margin-top: 50px;
-    }
-
-    .categories_cardFooter{
-        flex-direction: column;
-        align-items: center;
-        height: 692px;
-
-        justify-content: flex-start;
-    }
-
-    .cardFooter_element:last-child{
-        margin-top: 50px;
-    }
-
-    .aboutUs_image{
+@media screen and (max-width:400px) {
+    .testdrive_imageWrapper{
         display: none;
     }
 
-    .aboutUs_contentWrapper{
-        text-align: center;
+    .testdrive_text{
+       width: 100%;
     }
 
+    .testdrive{
+        height: 480px;
+    }
+}
+
+
+
+
+@media screen and (max-width:370px) {
+
+    .upperSection_form {
+        min-width: 320px;
+        max-width: 320px;
+    }
+
+    .form_title {
+        font-size: 16px;
+    }
+
+    #name {
+        height: 40px;
+    }
+
+    #tel {
+        height: 40px;
+    }
+
+    #select {
+        height: 40px;
+    }
+
+    .form_button{
+        height: 40px;
+    }
+}
+
+@media screen and (max-width:1400px) {
     .aboutUs_slider{
         display: none;
     }
+}
 
-    /* .aboutUs{
-        height: 800px;
-    } */
-
-    .whyWe{
+@media screen and (max-width:1070px) {
+    .orderAmanager_icons{
         display: none;
-    }
-
-    .middleSection{
-        height: 100%;
     }
 
     .orderAmanager{
+        background-position:center center;
+    }
+}
+
+@media screen and (max-width:1001px) {
+    .categories_cardHeader{
+        /* flex-direction: column; */
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .categories_title{
+        margin-left: 55%;
+        transform: translate(-50%, 0);
+    }
+
+    .categories_cardHeader *{
+        margin-bottom: 60px;
+    }
+
+    .categories_cardHeader:last-child{
+        margin-bottom: 0px;
+    }
+
+    .categories_cardFooter{
+        /* flex-direction: column; */
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 350px;
+        justify-content: center;
+    }
+
+    .categories_cardFooter *{
+        margin-bottom: 60px;
+    }
+
+    .cardHeader_element{
+        width: 100%;
+        height: 346px;
+    }
+
+    .cardFooter_element{
+        width: 100%;
+    }
+
+    .categories{
+        height: 1600px;
+    }
+
+    .categories_button{
+        width: 42.65%;
+        margin-left: 50%;
+        transform: translate(-50%, 0);
+    }
+
+    .categories_text{
         display: none;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .categories_text{
+        font-size: 14px;
+    }
+
+    .aboutUs_text{
+        font-size: 20px;
+    }
+
+    .aboutUs_title{
+        font-size: 32px;
+    }
+
+    .whyWe_title{
+        font-size: 32px;
+    }
+
+    .whyWe_rightBlock ul li{
+        font-size: 20px;
+    }
+
+    .whyWe_leftBlock ul li{
+        font-size: 20px;
+    }
+
+    .whyWe_separator{
+        margin: 0px 100px;
     }
 
     .ourTeachers{
@@ -144,103 +265,53 @@
     }
 }
 
-@media screen and (max-width:600px) {
-
-    .categories{
-        width: 600px;
-    }
-
-    .categories_cardHeader{
-        width: 600px;
-    }
-
-    .categories_cardFooter{
-        width: 600px;
-    }
-
-    .middleSection_wrapper{
-        width: 600px;
-    }
-
-    .cardHeader_element{
-        width: 600px;
-    }
-
-    .cardFooter_element{
-        width: 600px;
-    }
-
-    .categories_button{
-        margin-left: 80px;
-
-    }
-
-    .categories_title{
-        margin-left: 100px;
-    }
-
-    .categories_text{
-        margin-left: 40px;
-    }
-
-    .aboutUs{
-    margin-bottom: 200px;
+@media screen and (max-width:570px) {
+    .footer_telephone{
+        display: none;
     }
 }
 
-@media screen and (max-width:320px) {
 
-    .categories{
-        width: 320px;
-    }
-
-    .categories_cardHeader{
-        width: 320px;
-    }
-
-    .categories_cardFooter{
-        width: 320px;
-    }
-
-    .middleSection_wrapper{
-        width: 320px;
-    }
-
-    .cardHeader_element{
-        width: 320px;
-    }
-
-    .cardFooter_element{
-        width: 320px;
-    }
-
-    .categories_button{
-        margin-left: 80px;
-
-    }
-
+@media screen and (max-width:500px) {
     .categories_title{
-        margin-left: 100px;
+        font-size: 18px;
     }
 
-    .categories_text{
-        margin-left: 40px;
+    .aboutUs_text{
+        font-size: 16px;
     }
 
-    .aboutUs{
-    margin-bottom: 700px;
+    .aboutUs_title{
+        font-size: 18px;
     }
 
-    .header_network_wrapper{
-        display: none;
+    .whyWe_title{
+        font-size: 18px;
     }
 
-    .upperSection_form{
-        min-width: 300px;
+    .whyWe_rightBlock ul li{
+        font-size: 16px;
     }
 
-    .footer_networks{
-        display: none;
+    .whyWe_leftBlock ul li{
+        font-size: 16px;
     }
 
+    .whyWe_separator{
+        margin: 0px 80px;
+    }
+
+
+    .orderAmanager_title{
+        font-size: 22px;
+    }
+
+    .orderAmanager_text{
+        font-size: 14px;
+    }
+
+    .orderAmanager_button{
+        font-size: 8px;
+    }
 }
+

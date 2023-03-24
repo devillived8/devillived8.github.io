@@ -59,7 +59,7 @@ body, html{
 
 .header_button {
     background-color: #E63C24;
-    width: 265px;
+    width: 100%;
     height: 45px;
     border-radius: 10px;
     color: #fff;
@@ -142,7 +142,7 @@ body, html{
     transform: rotate(-45deg);
 }
 
-.nav .menu-items {
+ nav .menu-items {
     display: none;
     padding-top: 120px;
     position: absolute;
@@ -157,21 +157,22 @@ body, html{
     transition: transform 0.5s ease-in-out;
     text-align: center;
     list-style-type: none;
+    z-index: 1;
 }
 
-.nav .menu-items li {
+ nav .menu-items li {
     margin-bottom: 1.2rem;
     font-size: 20px;
     font-weight: 500;
     
 }
 
-.nav .menu-items li a{
+ nav .menu-items li a{
     color: #fff;
     
 }
 
-.nav input[type="checkbox"]:checked~.menu-items {
+ nav input[type="checkbox"]:checked~.menu-items {
     transform: translateX(0);
 }
 
@@ -448,6 +449,7 @@ body, html{
 
 .main_form_button {
     max-width: 290px;
+    width: 100%;
     height: 60px;
     border-radius: 10px;
     background-color: #E63C24;
@@ -462,7 +464,7 @@ body, html{
 
 
 .upperSection {
-    height: 656px;
+    height: 10.08%;
     background-image: url("../img/upperSection_bg.png");
     background-repeat: no-repeat;
     background-position: center 0;
@@ -478,11 +480,11 @@ body, html{
 }
 
 .upperSection_title {
-    margin-right: 191px;
+    margin-right: 20.54%;
     text-align: center;
     font-size: 40px;
     color: #fff;
-    max-width: 394px;
+    width: 42.37%;
     font-weight: bolder;
     line-height: 60px;
 }
@@ -499,6 +501,9 @@ body, html{
     align-items: center;
     flex-direction: column;
     color: #fff;
+    margin: 50px;
+    margin-top: 5.38%;
+    margin-bottom: 5.38%;
 }
 
 .form_title {
@@ -510,12 +515,12 @@ body, html{
 
 
 .name {
-    margin-right: 220px;
+    margin-right: 61.11%;
     font-size: 16px;
 }
 
 #name {
-    width: 290px;
+    width: 81.67%;
     height: 60px;
     border-radius: 10px;
 }
@@ -525,23 +530,23 @@ body, html{
     font-weight: bold;
     margin: 0px 20px;
     text-align: center;
-    margin-right: 220px;
+    margin-right: 61.11%;
     font-size: 16px;
 }
 
 #tel {
-    width: 290px;
+    width: 81.67%;
     height: 60px;
     border-radius: 10px;
 }
 
 .choseCategorie {
-    margin-right: 150px;
+    margin-right: 41.67%;
     font-size: 16px;
 }
 
 #select {
-    width: 290px;
+    width: 81.67%;
     height: 60px;
     border-radius: 10px;
 }
@@ -563,7 +568,7 @@ body, html{
 }
 
 .form_button {
-    width: 290px;
+    width: 81.67%;
     height: 60px;
     border-radius: 10px;
     background-color: #E63C24;
@@ -579,11 +584,17 @@ body, html{
 /* MIDDLE SECTION */
 .middleSection {
     position: relative;
-    height: 5800px;
+    /* height: 5800px; */
+    width: 100%;
     display: flex;
     align-items: flex-start;
     justify-content: center;
     margin-top: 50px;
+}
+
+
+.middleSection_wrapper{
+    width: 90%;
 }
 
 /* TESTDRIVE */
@@ -591,7 +602,7 @@ body, html{
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 1664px;
+    width: 96.29%;
     background-color: #264796;
 }
 
@@ -599,7 +610,11 @@ body, html{
     width: 50%;
 }
 
-.testdrive_image {}
+.testdrive_image {
+    width: 100%;
+    height: 100%;
+    margin: 10px 10px;
+}
 
 .testdrive_content {
     width: 50%;
@@ -615,19 +630,19 @@ body, html{
     font-weight: bold;
     color: #fff;
     margin-top: 32px;
-    max-width: 450px;
+    width: 81.52%;
     text-align: center;
 }
 
 .testdrive_text {
-    max-width: 430px;
+    width: 64.86%;
     color: #fff;
     font-weight: bold;
     font-size: 18px;
 }
 
 .testdrive_button {
-    width: 290px;
+    width: 80%;
     height: 60px;
     border-radius: 10px;
     background-color: #E63C24;
@@ -637,13 +652,16 @@ body, html{
     justify-content: center;
     align-items: center;
     margin-bottom: 54px;
+    margin-right: 10%;
+    margin-left: 10%;
+    text-align: center;
 }
 
 /* TESTDRIVE */
 /* CATEGORIES */
 
 .categories {
-    max-width: 1664px;
+    width: 96.29%;
     height: 857px;
     margin-top: 45px;
 }
@@ -656,8 +674,7 @@ body, html{
 }
 
 .cardHeader_element {
-    max-width: 820px;
-    width: 820px;
+    width: 49.27%;
     height: 470px;
     background-color: #264796;
 }
@@ -671,30 +688,30 @@ body, html{
 }
 
 .cardFooter_element {
-    max-width: 820px;
-    width: 820px;
+    width: 49.27%;
     height: 346px;
     background-color: #264796;
 }
 
 .categories_title {
-    margin-left: 209px;
-    margin-top: 62px;
+    margin-left: 24.53%;
+    margin-top: 13.19%;
     font-size: 32px;
     font-weight: bold;
     color: #fff;
 }
 
 .categories_text {
-    margin-left: 150px;
-    margin-top: 41px;
+    margin-left: 17.61%;
+    margin-top: 8.72%;
     color: #fff;
     font-size: 20px;
     font-weight: bold;
 }
 
 .categories_button {
-    max-width: 290px;
+    /* width: 34.77%; */
+    width: 290px;
     height: 60px;
     border-radius: 10px;
     background-color: #E63C24;
@@ -703,8 +720,8 @@ body, html{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 195px;
-    margin-top: 39px;
+    margin-left: 23.93%;
+    margin-top: 8.3%;
 }
 
 .cardHeader_element:first-child {
@@ -739,7 +756,7 @@ body, html{
 /* ABOUT US */
 .aboutUs {
     margin-top: 47px;
-    max-width: 1664px;
+    width: 92.6%;
 
 }
 
@@ -755,17 +772,18 @@ body, html{
     display: flex;
     justify-content: center;
     margin-bottom: 78px;
+    height: 58.62%;
 }
 
 .aboutUs_text {
-    width: 844px;
-    height: 738px;
+    width: 50.72%;
+    height: 50.97%;
     font-size: 32px;
 }
 
 .aboutUs_image {
-    width: 820px;
-    height: 499px;
+    width: 49.27%;
+    height: 67.61%;
 }
 
 /* ABOUT US */
@@ -775,6 +793,7 @@ body, html{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 200px;
 }
 
 .slider_title {
@@ -834,7 +853,9 @@ body, html{
 
 }
 
-.whyWe_leftBlock {}
+.whyWe_leftBlock {
+    width: 50%;
+}
 
 .whyWe_leftBlock ul>li {
     max-width: 560px;
@@ -845,7 +866,9 @@ body, html{
     margin: 0px 180px;
 }
 
-.whyWe_rightBlock {}
+.whyWe_rightBlock {
+    width: 50%;
+}
 
 .whyWe_rightBlock ul>li {
     max-width: 560px;
@@ -856,10 +879,11 @@ body, html{
 
 .orderAmanager {
     margin-top: 91px;
-    height: 936px;
+    width: 100%;
+    height: 16.21%;
     background-image: url("../img/orderAmanager.png");
     background-repeat: no-repeat;
-    background-position: center 0;
+    background-position: center center;
 }
 
 .orderAmanager_flexWrapper {
@@ -888,7 +912,7 @@ body, html{
 
 .orderAmanager_button {
     margin-top: 88px;
-    width: 355px;
+    width: 43.99%;
     height: 60px;
     border-radius: 10px;
     background-color: #E63C24;
@@ -935,7 +959,7 @@ body, html{
 /* OUR TEACHERS */
 
 .ourTeachers {
-    height: 620px;
+    height: 10.83%;
     background-color: #877878;
 }
 
@@ -943,16 +967,18 @@ body, html{
     display: flex;
 }
 
-.leftBlock {}
+.leftBlock {
+    width: 50%;
+}
 
 .ourTeachers_title {
-    margin-top: 89px;
+    margin-top: 13.24%;
     font-size: 38px;
     font-weight: bold;
     color: #fff;
-    margin-bottom: 58px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-bottom: 8.63%;
+    margin-left: 12.35%;
+    margin-right: 12.35%;
 }
 
 .outTeachers_text {
@@ -967,6 +993,8 @@ body, html{
 .buttonsBlock {
     display: flex;
     justify-content: center;
+    margin-left: 12.35%;
+    
 }
 
 .ourTeachers_leftButton {
@@ -981,6 +1009,7 @@ body, html{
     justify-content: center;
     align-items: center;
     margin-bottom: 54px;
+    font-size: 12px;
 }
 
 .ourTeachers_rightButton {
@@ -996,15 +1025,18 @@ body, html{
     align-items: center;
     margin-bottom: 54px;
     margin-left: 60px;
+    font-size: 12px;
 }
 
-.rightBlock {}
+.rightBlock {
+    width: 50%;
+}
 
 .rightBlock_bgImage {
-    margin-top: 91px;
-    margin-right: 49px;
-    margin-left: 49px;
-    width: 600px;
+    margin-top: 13.54%;
+    margin-right: 6.33%;
+    margin-left: 6.33%;
+    width: 85.96%;
 }
 
 /* OUR TEACHERS */
@@ -1014,6 +1046,7 @@ body, html{
 
 .footer {
     height: 140px;
+    margin-top: 200px;
 }
 
 .footer_flexWrapper {
