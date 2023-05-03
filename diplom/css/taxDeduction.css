@@ -1,0 +1,59 @@
+.taxDeduction_main{
+    
+}
+
+.taxDeduction_wrapper{
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.googleMap{
+    margin-top: 80px;
+}
+
+.taxDeduction_mapTitle_wrapper{
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.taxDeduction_mapTitle{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.taxDeduction_title{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.taxDeduction_title:last-child{
+    text-align: center;
+}
+
+.taxDeduction_text{
+    margin-bottom: 20px;
+}
+
+.taxDeduction_text:last-child{
+    margin-top: 20px;
+}
+
+.taxDeduction_title2{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.taxDeduction_list{
+    list-style-type: disc;
+}
+
+.taxDeduction_list li{
+    margin-top: 20px;
+}

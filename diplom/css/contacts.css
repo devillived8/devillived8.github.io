@@ -1,0 +1,51 @@
+.contacts_main{
+    
+}
+
+.contacts_wrapper{
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.googleMap{
+    margin-top: 80px;
+}
+
+.contacts_tableWrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.contacts_table{
+    border: 1px solid black;
+    width: 700px;
+    height: 300px;
+}
+
+.contacts_table tr{
+
+}
+
+.contacts_table tr th{
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.contacts_title{
+    font-size: 30px;
+    margin-top: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.contacts_text{
+    font-size: 14px;
+}
+
+.contacts_text:last-child{
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 40px;
+}

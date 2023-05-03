@@ -1,0 +1,48 @@
+.managerVisit_main{
+    
+}
+
+.managerVisit_wrapper{
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.googleMap{
+    margin-top: 80px;
+}
+
+.managerVisit_title{
+    margin-top: 40px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.managerVisit_text{
+    margin-bottom: 20px;
+}
+
+.managerVisit_mapTitle_wrapper{
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.managerVisit_mapTitle{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.managerVisit_list li:first-child{
+    margin-bottom: 20px;
+}
+
+.managerVisit_text:last-child{
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.managerVisit_list{
+    list-style-type: disc;
+}

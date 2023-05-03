@@ -1,0 +1,63 @@
+.techears_main {}
+
+.techears_wrapper {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.googleMap {
+    margin-top: 80px;
+}
+
+.techears_mapTitle_wrapper {
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.techears_mapTitle {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.teachers_upperBackground {
+    background: url("../img/teachers.jpg") center bottom no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+}
+
+.teachers_upperBlockWrapper {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.teachers_mainTitle {
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    padding-top: 100px;
+    max-width: 570px;
+}
+
+.teachets_text {
+    color: #fff;
+    max-width: 570px;
+    margin-top: 40px;
+}
+
+.teachers_ourTeachers{
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    justify-content: center;
+}
+
+.teacher{
+    margin: 50px 10px;
+    height: 300px;
+    width: 250px;
+    background-color: #000000;
+}

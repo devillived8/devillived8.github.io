@@ -59,7 +59,7 @@ body, html{
 
 .header_button {
     background-color: #E63C24;
-    width: 100%;
+    /* width: 100%; */
     height: 45px;
     border-radius: 10px;
     color: #fff;
@@ -276,14 +276,15 @@ body, html{
     position: absolute;
     top: 100%;
     left: 0%;
-    width: 220px;
-    height: 180px;
+    /* width: 220px; */
+    width: 100%;
+    height: 120px;
     background-color: #E63C24;
 }
 
 
 .hidden_menu_prices li {
-    height: 33.333%;
+    height: 50%;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -318,14 +319,15 @@ body, html{
     position: absolute;
     top: 100%;
     left: 0%;
-    width: 220px;
-    height: 360px;
+    /* width: 220px; */
+    width: 100%;
+    height: 240px;
     background-color: #E63C24;
 }
 
 
 .hidden_menu_aboutUs li {
-    height: 16.666%;
+    height: 25%;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -466,6 +468,7 @@ body, html{
 .upperSection {
     height: 10.08%;
     background-image: url("../img/upperSection_bg.png");
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center 0;
 }
@@ -595,6 +598,10 @@ body, html{
 
 .middleSection_wrapper{
     width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 /* TESTDRIVE */
@@ -912,7 +919,6 @@ body, html{
 
 .orderAmanager_button {
     margin-top: 88px;
-    width: 43.99%;
     height: 60px;
     border-radius: 10px;
     background-color: #E63C24;
@@ -922,6 +928,7 @@ body, html{
     justify-content: center;
     align-items: center;
     margin-bottom: 54px;
+    padding: 0px 20px;
 }
 
 .orderAmanager_icons {

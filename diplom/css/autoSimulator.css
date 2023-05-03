@@ -1,0 +1,51 @@
+.autoSimulator_main{
+    
+}
+
+.autoSimulator_wrapper{
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.googleMap{
+    margin-top: 80px;
+}
+
+.autoSimulator_mapTitle_wrapper{
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.autoSimulator_mapTitle{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.autoSimulator_title{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.autoSimulator_text{
+    margin-bottom: 20px;
+}
+
+.autoSimulator_title2{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.autoSimulator_list{
+    list-style-type: disc;
+}
+
+.autoSimulator_list li{
+    margin-top: 20px;
+}

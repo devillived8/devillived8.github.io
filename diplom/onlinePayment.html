@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" href="./css/media.css">
-    <link rel="stylesheet" href="./css/contacts.css">
-    <title>Контакты</title>
+    <link rel="stylesheet" href="./css/onlinePayment.css">
+    <title>Вызов менеджера</title>
 </head>
 
 <body>
@@ -113,67 +113,47 @@
    </nav>
    <!-- HAMBURGER -->
    <!-- HERE MAIN NAVIGATION -->
-    <main class="contacts_main">
-        <div class="contacts_wrapper">
-            <h1 class="contacts_title">Адреса и филиалы автошколы</h1>
-            <p class="contacts_text"><span style="font-weight: bold;">Центральный офис:</span> ул. Ставропольская 137, 3й этаж.</p>
+    <main class="onlinePayment_main">
+        <div class="onlinePayment_wrapper">
+            <h1 class="onlinePayment_title">Онлайн-оплата</h1>
             <br>
-            <p class="contacts_text"><span style="font-weight: bold;">Контактный телефон:</span> +7 (861) 290-10-95 ; +7 (861) 290-95-95</p>
+            <p class="onlinePayment_text">В данном разделе Вы можете оплатить обучение или заключить договор онлайн,
+                оплатив Ваше обучение с помощью банковской карты.</p>
             <br>
-            <p class="contacts_text"><span style="font-weight: bold;">E-mail:</span> avto-formula@bk.ru</p>
+            <p class="onlinePayment_text"><span style="font-weight: bold;">Для заключения договора на обучение
+                    дистанционно</span> Вам необходимо совершить платеж от 3000р, заполнив поля и указав в поле «Уже
+                обучаетесь у нас» значение «Нет». Далее наши специалисты свяжутся с Вами для уточнения подробностей.</p>
             <br>
-            <p class="contacts_text">Филиалы нашей автошколы находятся по всему городу, в таких районах как : Юбилейный(ЮМР), Фестивальный(ФМР), Черемушки, ТЭЦ, Гидрострой(ГМР), Комсомольский(КМР), 40-лет Победы.</p>
+            <p class="onlinePayment_text"><span style="font-weight: bold;">Если Вы уже обучаетесь в нашей
+                    автошколе</span> и хотите оплатить внести платеж за обучение, необходимо заполнить поля и указать в
+                поле «Уже обучаетесь у нас» значение «Да».</p>
             <br>
-            <p class="contacts_text"style="font-weight: bold;" >График работы филиалов:</p>
-            <div class="contacts_tableWrapper">
-            <table class="contacts_table">
-               <tr>
-                <th style="background-color: blue; color:#fff;">Адрес филиала</th>
-                <th style="background-color: blue; color:#fff;">График работы</th>
-               </tr>
-               <tr>
-                <th>ул. Ставропольская 137 (3 этаж)</th>
-                <th>понедельник-воскресенье 9:30-18:30</th>
-               </tr>
-               <tr>
-                <th>ул. им. 40-летия Победы, 65</th>
-                <th>понедельник-воскресенье 9:30-18:30</th>
-               </tr>
-               <tr>
-                <th>ул. им. 40-летия Победы, 34 (4 этаж)</th>
-                <th>понедельник-пятница 9:30-18:30</th>
-               </tr>
-               <tr>
-                <th>ул. Дальняя, 43 (4 этаж)</th>
-                <th>понедельник-пятница 9:30-18:30</th>
-               </tr>
-               <tr>
-                <th>ул. Платановый Бульвар, 19/3 (2 этаж)</th>
-                <th>понедельник-пятница 9:30-18:30</th>
-               </tr>
-               <tr>
-                <th>ул. Тюляева 16А (2 этаж)</th>
-                <th>понедельник-пятница 9:30-18:30</th>
-               </tr>
-               <tr>
-                <th>ул. Гаврилова 117 (3 этаж)</th>
-                <th>понедельник-пятница 9:30-18:30</th>
-               </tr>
-               <tr>
-                <th>ул. Сергея Есенина 84б (1 этаж), вход с ул. Рахманинова</th>
-                <th>понедельник-пятница 9:30-18:30</th>
-               </tr>
-               <tr>
-                <th>п. Индустриальный, пер. Дорожный 9 а (автодром)</th>
-                <th>понедельник-пятница 9:30-18:30</th>
-               </tr>
-            </table>
+            <form class="onlinePayment_payment" method="#">
+                <input type="text" name="fio" id="fio" placeholder="ФИО">
+                <input type="tel" name="tel" id="tel" placeholder="Телефон">
+                <select name="selectCategories" id="selectCategories">
+                    <option value="КАТЕГОРИЯ A">КАТЕГОРИЯ A</option>
+                    <option value="КАТЕГОРИЯ B">КАТЕГОРИЯ B</option>
+                    <option value="КАТЕГОРИЯ C">КАТЕГОРИЯ C</option>
+                    <option value="КАТЕГОРИЯ D">КАТЕГОРИЯ D</option>
+                    <option value="Восст. навыков">Восст. навыков</option>
+                </select>
+                <input type="text" name="sum" id="sum" placeholder="Сумма (без копеек)">
+                <select name="studyWithOus" id="studyWithOus">
+                    <option value="Обучаетесь у нас?">Обучаетесь у нас?</option>
+                    <option value="Нет">Нет</option>
+                    <option value="Да">Да</option>
+                </select>
+                <button class="onlinePayment_button">Оплатить картой</button>
+            </form>
         </div>
-            <br>
-            <p class="contacts_text">Ознакомиться с адресами автошколы и расположением филиалов вы можете ниже:</p>
+        <div class="onlinePayment_mapTitle_wrapper">
+            <h1 class="managerVisit_mapTitle">ФИЛИАЛЫ</h1>
         </div>
-            <iframe class="googleMap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d45256.961589461716!2d38.65240863129877!3d44.85089125845291!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40f1bada55dde8fd%3A0xb2a8dd9977e49cd8!2z0KDQsNC30LvQuNCy0L3QvtC1INC_0LjQstC-!5e0!3m2!1sru!2sru!4v1679592135006!5m2!1sru!2sru" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
+        <iframe class="googleMap"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d45256.961589461716!2d38.65240863129877!3d44.85089125845291!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40f1bada55dde8fd%3A0xb2a8dd9977e49cd8!2z0KDQsNC30LvQuNCy0L3QvtC1INC_0LjQstC-!5e0!3m2!1sru!2sru!4v1679592135006!5m2!1sru!2sru"
+            width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
     </main>
     <footer class="footer">
         <div class="footer_flexWrapper">
