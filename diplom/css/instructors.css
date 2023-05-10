@@ -1,6 +1,6 @@
-.techears_main {}
+.instructors_main {}
 
-.techears_wrapper {
+.instructors_wrapper {
     max-width: 1180px;
     margin: 0 auto;
 }
@@ -9,7 +9,7 @@
     margin-top: 80px;
 }
 
-.techears_mapTitle_wrapper {
+.instructors_mapTitle_wrapper {
     max-width: 1180px;
     margin: 0 auto;
     display: flex;
@@ -17,24 +17,24 @@
     margin-top: 100px;
 }
 
-.techears_mapTitle {
+.instructors_mapTitle {
     font-size: 30px;
     font-weight: bold;
 }
 
-.teachers_upperBackground {
-    background: url("../img/teachers.jpg") center bottom no-repeat;
+.instructors_upperBackground {
+    background: url("../img/instructor_bg.jpeg") center center no-repeat;
     background-size: cover;
     height: 500px;
     width: 100%;
 }
 
-.teachers_upperBlockWrapper {
+.instructors_upperBlockWrapper {
     max-width: 1180px;
     margin: 0 auto;
 }
 
-.teachers_mainTitle {
+.instructors_mainTitle {
     font-size: 30px;
     font-weight: bold;
     color: #fff;
@@ -42,20 +42,22 @@
     max-width: 570px;
 }
 
-.teachets_text {
+.instructors_text {
     color: #fff;
     max-width: 570px;
     margin-top: 40px;
 }
 
-.teachers_ourTeachers{
+
+
+.instructors_ourInstructors{
     display: flex;
     flex-wrap: wrap;
     flex-shrink: 0;
     justify-content: center;
 }
 
-.teacher{
+.instructor{
     margin: 50px 10px;
     height: 300px;
     width: 250px;
@@ -63,12 +65,13 @@
     background-color: #264796;
 }
 
-.teacher_textWrapper{
+.instructor_textWrapper{
     width: 100%;
     height: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     font-size: 12px;
     font-weight: bold;
 }

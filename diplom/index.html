@@ -15,12 +15,12 @@
 <body>
     <!-- FORM -->
     <div class="main_form_wrapper"></div>
-    <form action="" class="main_form">
+    <form action="userRequests.php" class="main_form" method="post">
         <h1 class="main_form_title">ЗАПИСАТЬСЯ НА ОБУЧЕНИЕ ПО АКЦИИ</h1>
         <p class="main_name">Ваше имя</p>
         <input type="text" name="name" id="main_name" placeholder="Введите ваше имя">
         <p class="main_telephone">Ваш телефон</p>
-        <input type="tel" name="tel" id="main_tel" placeholder="Введите ваш номер телефона">
+        <input type="tel" name="tel" id="main_tel" placeholder="Введите ваш номер телефона" maxlength="11">
         <p class="main_choseCategorie">Выберите категорию</p>
         <select name="select" id="select">
             <option value="A">Категория А</option>
@@ -71,7 +71,7 @@
         </div>
         <div class="menu-items">
             <!-- <li><a href="">КАТЕГОРИИ</a></li> -->
-            <li><a href="">ЦЕНЫ</a></li>
+            <li><a href="./priceAndCostOfStudy.html">ЦЕНЫ</a></li>
             <li><a  href="./studyOnline.html">ОБУЧЕНИЕ ON-LINE</a></li>
             <li><a  href="./contacts.html">КОНТАКТЫ</a></li>
             <li><a  href="">О НАС</a>
@@ -86,7 +86,7 @@
                     <li><a href="">ВОССТАНОВЛЕНИЕ НАВЫКОВ ВОЖДЕНИЯ</a></li>
                 </ul>
             </li> -->
-            <li id="prices"><a href="">ЦЕНЫ</a>
+            <li id="prices"><a href="./priceAndCostOfStudy.html">ЦЕНЫ</a>
                 <ul class="hidden_menu_prices">
                     <li><a href="./priceAndCostOfStudy.html">СТОИМОСТЬ ОБУЧЕНИЯ</a></li>
                     <!-- <li><a href="">РАССРОЧКА 0%</a></li> -->
@@ -101,8 +101,8 @@
                 <ul class="hidden_menu_aboutUs">
                     <!-- <li><a href="">Сведения об образовательной организации</a></li>
                     <li><a href="">Наш автодром</a></li> -->
-                    <li><a href="">ИНСТРУКТОРЫ</a></li>
-                    <li><a href="">ПРЕПОДАВАТЕЛИ</a></li>
+                    <li><a href="./instructors.php">ИНСТРУКТОРЫ</a></li>
+                    <li><a href="./teachers.php">ПРЕПОДАВАТЕЛИ</a></li>
                     <li><a href="./autoSimulator.html">АВТОТРЕНАЖЁР</a></li>
                     <li><a href="./taxDeduction.html">НАЛОГОВЫЙ ВЫЧЕТ</a></li>
                     <!-- <li><a href="">Оплата материнским капиталом</a></li> -->
@@ -288,10 +288,10 @@
                                 бесплатно!</div>
                             <div class="buttonsBlock">
                                 <div class="ourTeachers_leftButton">
-                                    ИНСТРУКТОРЫ
+                                    <a href="./instructors.php">ИНСТРУКТОРЫ</a>
                                 </div>
                                 <div class="ourTeachers_rightButton">
-                                    ПРЕПОДАВАТЕЛИ
+                                    <a href="./teachers.php">ПРЕПОДАВАТЕЛИ</a>
                                 </div>
                             </div>
                         </div>

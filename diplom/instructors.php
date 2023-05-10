@@ -9,13 +9,13 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" href="./css/media.css">
-    <link rel="stylesheet" href="./css/autoSimulator.css">
-    <title>Автотренажёр</title>
+    <link rel="stylesheet" href="./css/instructors.css">
+    <title>Инструкторы</title>
 </head>
 
 <body>
-    <!-- FORM -->
-    <div class="main_form_wrapper"></div>
+   <!-- FORM -->
+   <div class="main_form_wrapper"></div>
     <form action="" class="main_form">
         <h1 class="main_form_title">ЗАПИСАТЬСЯ НА ОБУЧЕНИЕ ПО АКЦИИ</h1>
         <p class="main_name">Ваше имя</p>
@@ -113,37 +113,52 @@
     </nav>
     <!-- HAMBURGER -->
     <!-- HERE MAIN NAVIGATION -->
-    <main class="autoSimulator_main">
-        <div class="autoSimulator_wrapper">
-           <h1 class="autoSimulator_title">Автотренажер в автошколе Краснодара</h1>
-           <br>
-           <p class="autoSimulator_text">В Краснодаре имеется <span style="font-weight: bold;">ТОЛЬКО ДВА</span> автотренажёра и <span style="font-weight: bold;">ВСЕ</span> наши ученики имеют возможность пройти бесплатное занятие на данном тренажере.</p>
-           <br>
-           <p class="autoSimulator_text">Автотренажёр является уникальной возможностью для начала обучения практической части, поскольку на специально подготовленном симуляторе вождения, являющимся отражением реального автомобиля, имеются те же самые педали, коробка передач, руль и другие средства управления авто.</p>
-           <br>
-           <p class="autoSimulator_text">Это хорошая подготовка для рук и ног, поскольку перед выездом на реальную дорогу, необходимо обладать определёнными навыками. Автотренажер отлично развивает «мышечную память».</p>
-           <br>
-           <p class="autoSimulator_text"><span style="font-weight: bold;">Не нужно упускать возможности</span> тренироваться на предоставляемом тренажёре, который наилучшим образом подготовит к реальному движению и управлению на дорожном полотне.</p>
-           <br>
-           <img src="./img/autoSimulator.jpg" alt="autoSimulator" width="100%">
-           <br>
-           <h2 class="autoSimulator_title2">В процессе обучения Вы:</h2>
-           <ul class="autoSimulator_list">
-            <li>ознакомитесь с устройством и работой авто</li>
-            <li>научитесь управлять педалями газа,тормоза,сцепления</li>
-            <li>научитесь координировать действия рук и ног</li>
-            <li>научитесь переключать передачи</li>
-            <li>трогаться с места</li>
-            <li>выполнять разгон и торможение</li>
-            <li>научитесь выполнять движение задним ходом</li>
-           </ul>
-           <br>
-           <p class="autoSimulator_text">Еще одним плюсом является то, что данный автотренажер автошколы Краснодара «Формула»,поможет учащимся отточить навыки такого упражнения как «горка».  После занятия на нем Вы с первого раза сможете преодолеть это упражнение на реальном автомобиле!</p>
-           <br>
-           <p class="autoSimulator_text">Все эти этапы помогут Вам успешно овладеть начальными навыками перед вождением и успешно сдать экзамен в ГИБДД.</p>
+    <main class="instructors_main">
+        <div class="instructors_upperBackground">
+            <div class="instructors_upperBlockWrapper">
+                <h1 class="instructors_mainTitle">ИНСТРУКТОРЫ НАШЕЙ АВТОШКОЛЫ</h1>
+                <p class="instructors_text">В нашей автошколе в Краснодаре Вас будут обучать профессионалы своего дела с многолетним стажем и полностью индивидуальным подходом.</p>
+            </div>
         </div>
-        <div class="autoSimulator_mapTitle_wrapper">
-            <h1 class="autoSimulator_mapTitle">ФИЛИАЛЫ</h1>
+        <div class="instructors_wrapper">
+            <div class="instructors_ourInstructors">
+                <?php
+                $servername = "localhost";
+                $username = "root";
+                $password = "root";
+                $dbname = "autoschool";
+                
+                $conn = new mysqli($servername, $username, $password, $dbname);
+
+                if ($conn->connect_error) {
+                    die("Ошибка подключения: " . $conn->connect_error);
+                }
+
+                $sql = "SELECT * FROM instructors";
+                $result = $conn->query($sql);
+                if ($result->num_rows > 0) {
+                    while ($row = $result->fetch_assoc()) {
+                        $imgName = './img/'.$row["avatar"];
+    
+                        echo " 
+                        
+                        <div class='instructor'>
+                            <img src= '$imgName' alt='' width='100%' height='80%'>
+                            <div class='instructor_textWrapper'>
+                                <p class='instructor_name'>$row[fio]</p>
+                                <p class='instructor_car'>Автомобиль: $row[car]</p>
+                            </div>
+                        </div>";
+                    }
+                } else {
+                    echo "Нет результатов";
+                }
+                $conn->close();
+                ?>
+            </div>
+        </div>
+        <div class="instructors_mapTitle_wrapper">
+            <h1 class="instructors_mapTitle">ФИЛИАЛЫ</h1>
         </div>
         <iframe class="googleMap"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d45256.961589461716!2d38.65240863129877!3d44.85089125845291!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40f1bada55dde8fd%3A0xb2a8dd9977e49cd8!2z0KDQsNC30LvQuNCy0L3QvtC1INC_0LjQstC-!5e0!3m2!1sru!2sru!4v1679592135006!5m2!1sru!2sru"

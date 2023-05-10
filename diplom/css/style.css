@@ -1019,6 +1019,11 @@ body, html{
     font-size: 12px;
 }
 
+.ourTeachers_leftButton a{
+    color: #fff;
+    font-size: 12px;
+}
+
 .ourTeachers_rightButton {
     margin-top: 143px;
     width: 282px;
@@ -1032,6 +1037,11 @@ body, html{
     align-items: center;
     margin-bottom: 54px;
     margin-left: 60px;
+    font-size: 12px;
+}
+
+.ourTeachers_rightButton a{
+    color: #fff;
     font-size: 12px;
 }
 
